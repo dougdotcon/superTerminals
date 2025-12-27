@@ -1,123 +1,123 @@
 # SuperTerminals
 
 <div align="center">
-  <h3>Gerenciador de Terminais e Comandos</h3>
-  <p>Interface gráfica moderna para gerenciar múltiplos terminais, similar ao Docker Desktop</p>
+  <h3>Multi-Terminal Manager</h3>
+  <p>Modern graphical interface for managing multiple terminals, similar to Docker Desktop</p>
 </div>
 
 ---
 
-## Sobre
+## About
 
-**SuperTerminals** é uma aplicação desktop que permite gerenciar múltiplos terminais/comandos de forma visual e intuitiva. Você pode adicionar, configurar e executar comandos em diferentes diretórios, tudo através de uma interface amigável.
+**SuperTerminals** is a desktop application that allows you to manage multiple terminals/commands visually and intuitively. You can add, configure, and execute commands in different directories through a user-friendly interface.
 
-### Características
+### Features
 
-- Interface gráfica moderna e intuitiva
-- Gerenciamento de múltiplos terminais
-- Controles Play/Stop para cada terminal
-- Visualização de tempo de execução
-- Logs em tempo real
-- Persistência de configurações em JSON
-- Executável standalone (cross-platform)
-- Leve e performático
+- Modern and intuitive graphical interface
+- Management of multiple terminals
+- Play/Stop controls for each terminal
+- Real-time execution time display
+- Real-time logs
+- Configuration persistence using JSON
+- Standalone executable (cross-platform)
+- Lightweight and performant
 
-### Stack Tecnológica
+### Tech Stack
 
 - **Frontend**: React 18 + TypeScript + Vite + TailwindCSS
 - **Backend**: Tauri + Rust
-- **Persistência**: JSON local
+- **Persistence**: Local JSON
 
 ---
 
-## Início Rápido
+## Quick Start
 
-### Pré-requisitos
+### Prerequisites
 
 1. **Node.js** >= 18
 2. **Rust** >= 1.70
 3. **pnpm**
 
-### Instalação
+### Installation
 
-```bash
-# Instalar dependências
+bash
+# Install dependencies
 pnpm install
 
-# Executar em modo desenvolvimento
+# Run in development mode
 pnpm tauri dev
 
-# Build para produção
+# Build for production
 pnpm tauri build
-```
 
-Para instruções detalhadas de instalação, veja [SETUP.md](./SETUP.md)
 
----
-
-## Documentação
-
-- [README](./docs/README.md) - Visão geral completa
-- [ARCHITECTURE](./docs/ARCHITECTURE.md) - Arquitetura detalhada
-- [API](./docs/API.md) - Referência da API
-- [DEVELOPMENT](./docs/DEVELOPMENT.md) - Guia de desenvolvimento
-- [SETUP](./SETUP.md) - Instruções de instalação
+For detailed installation instructions, see [SETUP.md](./SETUP.md)
 
 ---
 
-## Estrutura do Projeto
+## Documentation
 
-```
+- [README](./docs/README.md) - Full overview
+- [ARCHITECTURE](./docs/ARCHITECTURE.md) - Detailed architecture
+- [API](./docs/API.md) - API reference
+- [DEVELOPMENT](./docs/DEVELOPMENT.md) - Development guide
+- [SETUP](./SETUP.md) - Installation instructions
+
+---
+
+## Project Structure
+
+
 superTerminals/
-├── docs/              # Documentação
-├── src/               # Frontend React
-├── src-tauri/         # Backend Rust
+├── docs/              # Documentation
+├── src/               # React Frontend
+├── src-tauri/         # Rust Backend
 └── package.json
-```
+
 
 ---
 
-## Status do Projeto
+## Project Status
 
-- [x] Documentação completa
-- [x] Setup inicial do projeto
-- [x] Estrutura de pastas
-- [x] Backend Rust (comandos completos)
-- [x] Componentes React (todos implementados)
-- [x] Integração frontend-backend (funcionando)
-- [x] Interface completa e funcional
-- [x] Toggle de visualização Grid/Lista
-- [x] Sistema de logs em tempo real
-- [x] Build de produção
-- [ ] Testes automatizados
+- [x] Complete documentation
+- [x] Initial project setup
+- [x] Folder structure
+- [x] Rust backend (complete commands)
+- [x] React components (all implemented)
+- [x] Frontend-backend integration (working)
+- [x] Complete and functional interface
+- [x] Grid/List view toggle
+- [x] Real-time log system
+- [x] Production build
+- [ ] Automated tests
 
-**Status**: ✅ **APLICAÇÃO FUNCIONANDO COMPLETAMENTE!**
+**Status**: ✅ **FULLY FUNCTIONAL APPLICATION!**
 
 ---
 
 ## Screenshots
 
-### Interface Principal - Visualização em Cards
-![Interface Principal](./imagens/f1.jpeg)
+### Main Interface - Card View
+![Main Interface](./imagens/f1.jpeg)
 
-### Visualização em Lista
-![Visualização em Lista](./imagens/f2.jpeg)
+### List View
+![List View](./imagens/f2.jpeg)
 
-### Adicionar Novo Terminal
-![Adicionar Terminal](./imagens/f3.jpeg)
+### Add New Terminal
+![Add Terminal](./imagens/f3.jpeg)
 
-### Logs em Tempo Real
-![Logs em Tempo Real](./imagens/f4.jpeg)
+### Real-time Logs
+![Real-time Logs](./imagens/f4.jpeg)
 
-### Gerenciamento de Processos
-![Gerenciamento de Processos](./imagens/f5.jpeg)
+### Process Management
+![Process Management](./imagens/f5.jpeg)
 
 ---
 
-## Licença
+## License
 
 MIT
 
-## Autor
+## Author
 
 Henrique
